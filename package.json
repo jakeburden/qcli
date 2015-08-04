@@ -1,6 +1,6 @@
 {
   "name": "qcli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "bundle qscend's css and js",
   "bin": {
     "qcli": "bin/cmd.js"
