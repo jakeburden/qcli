@@ -1,0 +1,23 @@
+{
+  "name": "qcli",
+  "version": "1.0.0",
+  "description": "bunds qscends css and js",
+  "bin": {
+    "qcli": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Burden",
+  "license": "ISC",
+  "dependencies": {
+    "cssmin": "^0.4.3",
+    "request": "^2.60.0",
+    "uglify-js": "^2.4.24"
+  },
+  "standard": {
+    "ignore": [
+      "bundle!*.js"
+    ]
+  }
+}
