@@ -18,7 +18,7 @@ var scripts = []
 var styles = ['`']
 
 files.map(function (file) {
-  var isJS = file.includes('.js')
+  var isJS = file.indexOf('.js') > -1
   var url = isJS ? baseURL + '/js/' + file
                  : baseURL + '/css/' + file
   request(url, function (err, res, body) {
