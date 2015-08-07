@@ -5,16 +5,16 @@ module.exports = function (js, css) {
       'elem.setAttribute("type", "text/css");',
 
       'if ("textContent" in elem) {',
-        'elem.textContent = ' + css,
+        "elem.textContent = '" + css + "'",
       '} else {',
-        'elem.styleSheet.cssText = ' + css,
+        "elem.styleSheet.cssText = '" + css + "'",
       '}',
 
       'var head = document.getElementsByTagName("head")[0];',
       'head.appendChild(elem);',
     '})()',
     '\n',
-    ';' + js,
+     js,
     '\n'
   ]
 
