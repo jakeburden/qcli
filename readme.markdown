@@ -1,5 +1,5 @@
 ## qcli
-### Bundle QScend's frontend resoucres!
+### Bundle QScend's frontend resources!
 #### install modules from our ui sandbox!
 ---
 
